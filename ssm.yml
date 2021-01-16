@@ -1,4 +1,4 @@
- # this will pickup the latest value of the parameter every time the template is run
+# this will pickup the latest value of the parameter every time the template is run
 # the parameter value must be the Key for that Parameter. Then CFN will retrieve the value
 # this does not support SecureString SSM Parameter types
 Parameters:
@@ -19,4 +19,4 @@ Resources:
     Properties:
       ImageId: !Ref ImageId
       InstanceType: !Ref InstanceType
-Welcome to my Server in Parker Colorado
+Welcome to my Server in Parker Colorado in my house
